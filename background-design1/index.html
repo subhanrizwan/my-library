@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated background</title>
+</head>
+
+<style>
+    body {
+        background-color: black;
+        overflow: hidden;
+    }
+
+    .moving-shape {
+        width: 100px;
+        aspect-ratio: 1;
+        background-color: rgba(128, 128, 128, 0.7);
+        opacity: 0.4;
+        position: absolute;
+        top: -500px;
+        z-index: -1;
+        animation: rotate-fall 5s linear;
+        animation-iteration-count: 6;
+        border: none;
+        outline: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+
+    @keyframes rotate-fall {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            border-radius: 0;
+        }
+
+        50% {
+            transform: translateY(500px)rotate(900deg);
+            border-radius: 50%;
+        }
+
+        100% {
+            transform: translateY(calc(1000px)) rotate(1800deg);
+            border-radius: 0;
+        }
+    }
+</style>
+
+<body>
+
+
+
+
+
+
+    <script>
+        function createMovingShape() {
+            const shapes = document.querySelectorAll(".moving-shape");
+            if (shapes.length > 20) {
+                return;
+            }
+            var shape = document.createElement('div');
+            shape.classList.add('moving-shape');
+            var width = Math.floor(Math.random() * (300 - 50 + 1)) + 50;
+            shape.style.width = width + 'px';
+            var right = Math.floor(Math.random() * (window.innerWidth * 0.9 - (-50) + 1)) + (-50);
+            shape.style.right = right + 'px';
+            var duration = Math.floor(Math.random() * (8 - 2 + 1)) + 2;
+            shape.style.animationDuration = duration + 's';
+            // var randomColor = 'rgb(' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ',' + Math.floor(Math.random() * 256) + ')';
+            var randomColor = 'rgb(38, 166, 154)';  // This corresponds to #26a69a in RGB format
+            shape.style.backgroundColor = randomColor;
+            document.body.appendChild(shape);
+            shape.addEventListener('animationend', function () {
+                let shapes = document.querySelectorAll(".moving-shape");
+                console.log(shapes.length);
+                shape.remove();
+                shapes = document.querySelectorAll(".moving-shape");
+                console.log(" -1 = " + shapes.length);
+            });
+        }
+
+        createMovingShape();
+        setInterval(createMovingShape, 4000);
+
+
+    </script>
+</body>
+
+
+</html>
