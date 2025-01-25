@@ -1,0 +1,595 @@
+@media only screen and (max-width: 1440px) {
+  html {
+    overflow-x: hidden;
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    width: 850px !important;
+    height: 840px !important;
+  }
+  .hero-img :nth-child(1) {
+    top: 24%;
+    left: 30%;
+  }
+  .products-section .container-fluid .row {
+    padding: 0rem;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    width: 780px !important;
+    height: 640px !important;
+  }
+  .hero-img :nth-child(1) {
+    top: 25%;
+    left: 29.5%;
+  }
+  .wave-background1 {
+    width: 85%;
+    height: 170%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .hero {
+    height: 85vh;
+  }
+  .hero .container .row:nth-child(1) {
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    width: 750px !important;
+    height: 840px !important;
+  }
+  .chachajee-section .container .row > .col-6:first-child {
+    width: 58%;
+  }
+  .chachajee-section .container .row > .col-6:last-child {
+    width: 42%;
+  }
+  .chachajee-section .container .row .img-section {
+    transform: translate(50px, -50px);
+    rotate: 20deg;
+  }
+  /* .hero,.content-section,.cta-section{ 
+                margin-bottom: 10rem;
+            } */
+}
+@media only screen and (max-width: 1024px) {
+  .navbar .navbar-nav .nav-item a {
+    padding: 0.82rem;
+    font-size: 0.75rem;
+  }
+  .hero .container .row .col-sm-12 .hero-img :nth-child(2) {
+    width: 100%;
+  }
+  .hero-img :nth-child(1) {
+    height: 180px !important;
+    top: 25%;
+    left: 30%;
+  }
+  .title-section h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+  }
+  .title-section {
+    margin-top: 3rem;
+    line-height: 5rem;
+  }
+  .hero .container .row .col-lg-8 {
+    width: 50%;
+  }
+  .hero .container .row .col-lg-4 {
+    width: 50%;
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    width: 600px !important;
+    height: 650px !important;
+  }
+  .welcome-fizzy :nth-child(2) {
+    font-size: 3rem;
+  }
+  .welcome-fizzy :nth-child(3) {
+    font-size: 1rem;
+  }
+  .content-section .container .row .col-6 img {
+    transform: translate(-20px, -50px);
+    rotate: -20deg;
+  }
+  .role-wrap {
+    width: 28rem;
+  }
+  .icon-wrap {
+    width: 60px;
+    height: 60px;
+  }
+  .chachajee-section .container .row .img-section {
+    transform: translate(0px, -30px);
+    rotate: 20deg;
+  }
+  .wave-background1 {
+    width: 90%;
+    height: 140%;
+  }
+
+  /* Product inner */
+  .dec-child {
+    max-width: 300px !important;
+  }
+  .dec-child .mb-2 {
+    margin-bottom: 0.3rem !important;
+  }
+  .dec-child hr {
+    margin: 0.7rem 0;
+  }
+  .dec-child h4,
+  h4 {
+    font-size: calc(1rem + 0.3vw);
+  }
+  .dec-child h3,
+  h3 {
+    font-size: calc(1rem + 0.6vw);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav .nav-item a {
+    padding: 1rem;
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+  .navbar-nav {
+    padding: 3rem 2rem;
+  }
+  .nav-item a::after {
+    left: 3.3%;
+  }
+  .nav-item a:hover::after,
+  .nav-item a.active::after {
+    width: 17.5%; /* Adjust width for hover and active state */
+  }
+  .hero {
+    height: auto;
+  }
+  .hero .container .row {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  .hero .container .row :nth-child(1) {
+    justify-content: center !important;
+    padding-top: 3rem;
+  }
+  .hero .container .row :nth-child(2) {
+    padding: 3rem;
+  }
+  .hero .container .row .col-lg-6 .hero-img {
+    justify-content: center !important;
+    padding-bottom: 0rem !important;
+  }
+  .hero .container .row :nth-child(1) {
+    justify-content: center !important;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+  }
+  .hero-img :nth-child(1) {
+    height: 210px !important;
+    top: 30%;
+    left: 33.7%;
+  }
+  .welcome-fizzy :nth-child(1) {
+    line-height: 2.5rem;
+  }
+  .content-section {
+    height: auto;
+  }
+  .content-section .container-fluid .row {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    padding-top: 3rem;
+    width: 100% !important;
+    height: 600px !important;
+  }
+  .flavour-showcase-section .container-fluid .row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .footer-row {
+    justify-content: start;
+  }
+
+  /* Product */
+  .products-section .container-fluid .row {
+    padding: 0rem;
+  }
+  .slide img {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .nav-item a::after {
+    left: 4.3%;
+  }
+  .nav-item a:hover::after,
+  .nav-item a.active::after {
+    width: 20.5%; /* Adjust width for hover and active state */
+  }
+  .hero .container .row :nth-child(2) {
+    padding: 2rem;
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    width: 100% !important;
+    height: 550px !important;
+  }
+  .hero-img :nth-child(1) {
+    top: 28.6%;
+    left: 32.7%;
+  }
+  .pulse-logo img {
+    width: 70%;
+  }
+  .wave-background1 {
+    width: 100%;
+    height: 120%;
+  }
+  .products-section .container-fluid .row {
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-item a::after {
+    left: 5%;
+  }
+  .nav-item a:hover::after,
+  .nav-item a.active::after {
+    width: 21.3%; /* Adjust width for hover and active state */
+  }
+  .content-section .container .row {
+    flex-direction: column-reverse;
+  }
+  .content-section .container .row .col-6 {
+    width: 100%;
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    padding-top: 3rem;
+    width: 100% !important;
+    height: 550px !important;
+  }
+  .content-section .container .row > .col-6:last-child {
+    margin-bottom: 5rem;
+  }
+  .role-wrap {
+    width: 38.5rem;
+  }
+  .products-section .container-fluid .row {
+    flex-direction: column-reverse;
+  }
+  .pulse-logo img {
+    width: 75%;
+  }
+  .wave-background1 {
+    width: 100%;
+    height: 110%;
+  }
+  .products-section .container-fluid .row {
+    padding: 4rem;
+  }
+  .slide img {
+    width: 100%;
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .nav-item a::after {
+    left: 7%;
+  }
+  .nav-item a:hover::after,
+  .nav-item a.active::after {
+    width: 32%;
+  }
+  .hero {
+    justify-content: center !important;
+    align-items: center;
+    padding: 0;
+  }
+  .hero .container .row {
+    padding-top: 4rem;
+  }
+  .hero .container .row .col-lg-8 {
+    width: 100%;
+  }
+  .hero .container .row .col-lg-4 {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .hero-img :nth-child(1) {
+    top: 27%;
+    left: 30.5%;
+  }
+  .welcome-fizzy :nth-child(2) {
+    font-size: 2rem;
+  }
+  .content-section .container .row > .col-6:last-child {
+    margin-bottom: 5rem;
+    padding: 2rem;
+  }
+  .content-section .container .row > .col-6:first-child,
+  .img-section img {
+    margin-bottom: 0rem;
+    display: none;
+  }
+  .role-wrap {
+    width: 24.5rem;
+  }
+  .chachajee-section .container .row .col-6 .heading h6 {
+    font-size: 3rem;
+  }
+  .cta-section .container .row {
+    justify-content: center;
+  }
+  .cta-section .container .row .col-12 {
+    flex: 0 0 auto;
+    width: 90%;
+    flex-direction: column;
+    align-items: normal !important;
+  }
+  .cta-section .container .row .col-12 .child-content {
+    width: 100% !important;
+  }
+  .cta-section .container .row .col-12 .child-content h4 {
+    font-size: calc(1rem + 0.3vw);
+    margin-bottom: 2rem;
+  }
+  .cta-section .container .row .col-12 .fizzy-btn {
+    width: 100%;
+  }
+  .chachajee-section .container .row > .col-6:first-child {
+    width: 58%;
+    padding: 2rem;
+  }
+  /* products */
+  .products-section .container-fluid .row .col-lg-12 {
+    gap: 35px;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .product-card {
+    width: 350px;
+    height: 400px;
+  }
+  .pulse-logo img {
+    width: 30%;
+  }
+  .social-wrap h2 {
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .social-wrap h1 {
+    font-size: 5rem;
+  }
+  .wave-background1 {
+    width: 90%;
+    height: 140%;
+  }
+  .pulse-logo {
+    width: 60%;
+  }
+  .pulse-logo img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 432px) {
+  .nav-item a::after {
+    left: 9%;
+  }
+  .nav-item a:hover::after,
+  .nav-item a.active::after {
+    width: 41.5%; /* Adjust width for hover and active state */
+  }
+  .hero-img :nth-child(1) {
+    height: 170px !important;
+    top: 27%;
+    left: 31%;
+  }
+  .hero .container .row {
+    padding-top: 5rem;
+  }
+  .hero .container .row :nth-child(2) {
+    padding: 1rem;
+  }
+  .content-section .container-fluid .row .content-img .img1 .main-img {
+    height: 400px !important;
+  }
+  .product-card {
+    width: 360px;
+    height: 410px;
+  }
+  .welcome-fizzy :nth-child(2) {
+    font-size: 1rem;
+  }
+  .title-section {
+    margin-top: 3rem;
+    line-height: 2rem;
+  }
+  .title-section h1 {
+    font-size: 4rem;
+  }
+  .title-section p {
+    font-size: 1rem;
+  }
+  .title-section small {
+    font-size: 0.8rem;
+    line-height: 3rem;
+  }
+  .chachajee-section .container .row .col-6 .heading h6 {
+    font-size: 2rem;
+  }
+  .role-wrap {
+    width: 18.5rem;
+  }
+  .social-wrap h2 {
+    font-size: 1.5rem;
+    line-height: 5rem;
+  }
+  .social-wrap h1 {
+    font-size: 3rem;
+  }
+  .wave-background1 {
+    width: 120%;
+    height: 125%;
+  }
+  .products-section .container-fluid .row .col-lg-12 {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .welcome-fizzy :nth-child(2) {
+    font-size: 2rem;
+  }
+  .chachajee-section .container .row .col-6 .heading h6 {
+    font-size: 2rem;
+  }
+  .role-wrap {
+    width: 17.5rem;
+  }
+  .cta-section .container .row .col-12 .child-content h4 {
+    line-height: 1.7rem;
+  }
+  .product-card {
+    width: 100%;
+    height: 400px;
+  }
+  .hero-img :nth-child(1) {
+    top: 26%;
+    left: 29.5%;
+  }
+  .pulse-logo {
+    width: 70%;
+  }
+  .social-wrap h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .social-wrap h1 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .role-wrap {
+    width: 16rem;
+  }
+  .hero-img :nth-child(1) {
+    height: 160px !important;
+    top: 26%;
+    left: 30.2%;
+  }
+  .slider-container {
+    width: 100%;
+  }
+  footer {
+    padding: 3rem;
+  }
+  .products-section .container-fluid .row .col-lg-12 {
+    gap: 35px;
+    justify-content: center;
+    padding: 0rem;
+  }
+  .products-section .container-fluid .row {
+    padding: 3rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .nav-item a::after {
+    left: 10%;
+  }
+  .fizzy-btn {
+    padding: 0.9rem 1.5rem 0.9rem 1.5rem;
+  }
+  .social-wrap h2 {
+    font-size: 2rem;
+  }
+  .social-wrap h1 {
+    font-size: 2.9rem;
+  }
+  .hero-img :nth-child(1) {
+    height: 150px !important;
+    top: 27%;
+    left: 31.5%;
+  }
+}
+@media only screen and (max-width: 363px) {
+  .welcome-fizzy :nth-child(1) {
+    line-height: 3rem;
+  }
+  .welcome-fizzy :nth-child(2) {
+    font-size: 1rem;
+  }
+  .product-card {
+    width: 100%;
+    height: 400px;
+  }
+  .title-section p {
+    font-size: 0.6rem;
+  }
+  .chachajee-section .container .row .col-6 .content p {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .role-wrap {
+    width: 14.8rem;
+  }
+  .chachajee-section .container .row > .col-6:first-child {
+    padding: 1.2rem;
+  }
+  .hero-img :nth-child(1) {
+    top: 25%;
+    left: 29.5%;
+  }
+  .pulse-logo {
+    width: 80%;
+  }
+  .social-wrap h1 {
+    font-size: 2.5rem;
+  }
+  .social-wrap h2 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero-img :nth-child(1) {
+    height: 150px !important;
+    top: 26%;
+    left: 30.5%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .products-section .container-fluid .row {
+    padding-top: 5rem;
+  }
+  .hero-img :nth-child(1) {
+    height: 120px !important;
+    top: 27.5%;
+    left: 32.5%;
+  }
+  .title-section {
+    margin-top: 2rem;
+    line-height: 2rem;
+  }
+  .title-section h1 {
+    font-size: 3rem;
+  }
+  .title-section p {
+    font-size: 1rem;
+  }
+  .social-wrap h1 {
+    font-size: 1.8rem;
+  }
+  .Social-media-section .container-fluid .row {
+    padding: 2rem !important;
+  }
+  .wave-background1 {
+    width: 110%;
+    height: 105%;
+  }
+}
